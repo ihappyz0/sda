@@ -1,0 +1,470 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: black;
+    background: white;
+    margin: 5px;
+    height: 1080px;
+    width: 1980px;
+    
+}
+
+.begin {
+    width: 1340px;
+   height: 1000px;
+    background-image: url(fon.png);
+    border: 6px;
+    overflow: hidden;
+
+}
+
+
+.navigitor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 56px;
+    padding-right: 65px;
+}
+
+.header_begin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin-left: 100px;
+    list-style: none;
+    
+}
+
+.logo
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+}
+.tatal {
+    display: inline-block;
+    min-width: 125px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    text-decoration: none;
+    color: white;
+    margin-top: 75px;
+    font-family: "Istok Web", serif;
+    font-weight: normal
+}
+
+.center {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    color: white;
+    padding-left: 100px;
+    height: 875px;
+}
+.text_center_place {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.text_big {
+    display: block;
+    font-size: 150px ;
+    margin-top: 220px;
+    font-family: 'Kenia', sans-serif;
+}
+
+.text_big2 {
+    font-size: 23px;
+    font-family: "Istok Web", serif;
+}
+
+
+.iPhone {
+  margin-right: 100px;
+}
+
+.two {
+    width: 1340px;
+   height: 800px;
+   text-decoration: none;
+   background-color: #D53005;
+}
+
+.pesni {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: white;
+    margin-left: 106px ;
+    padding-top: 61px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.button {
+    display: block;
+    width: 10px;
+    padding-left: 80px;
+}
+
+.knopka {
+    display: block;
+    border: 0.5px solid black;
+    width: 382px; 
+    height: 83px; 
+    border-radius: 1px;
+    background: linear-gradient(59deg, #B13E18, #f35d18);
+    color: white;
+    margin: -73px;
+    margin-top: 155px;
+    margin-left: 50px;
+    font-size: 40px;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.6);
+    font-family: 'Karla', sans-serif;
+        }
+
+.albom {
+    padding-left: 440px;
+    margin-top: -330px;
+    width: 900px;
+    height: 550px;
+
+}
+
+.three {
+    width: 1340px;
+    height: 800px;
+    background-color: black;
+}
+
+.fon {
+height: 50px;
+background: linear-gradient(to bottom, rgb(213,48,5), rgba(0, 0, 0, 1)); 
+}
+
+.AB {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: white;
+    margin-left: 106px ;
+    padding-top: 61px;
+    font-family: 'Karla', sans-serif;
+}
+
+.beford {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 400px;
+}
+
+.text_centre {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 280px;
+    width: 969px;
+    height: 72px;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 185px;
+    font-family: 'Karla', sans-serif;
+}
+
+.four  {
+    width: 1340px;
+    height: 800px;
+    background-color: #EC3505;
+}
+
+.magazin {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: white;
+    margin-left: 106px ;
+    padding-top: 61px;
+    font-family: 'Karla', sans-serif;
+ 
+}
+
+.last {
+    display: block;
+    width: 10px;
+    text-decoration: none;
+}
+
+.but25 {
+    text-decoration: none;
+    display: block;
+    width: 210px; 
+    height: 50px; 
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: 0.5px solid black;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.6);
+    margin: -100px;
+    margin-top: 105px;
+    margin-left: 125px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+        }
+
+.but24 {
+    display: block;
+    width: 210px; 
+    height: 50px; 
+    border-radius: 50px;
+    border: 0.5px solid black;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.6);
+    color: black;
+    background-color: white;
+    margin:-100px;
+    margin-top: 125px;
+    margin-left: 125px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+        }
+
+.text1 {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-size: 21px;
+    margin-top: 250px;
+    width: 569px;
+    height: 42px;
+    text-align: justify;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin-left: 16px ;
+
+}
+
+.text2 {
+    display: block;
+    font-size:16px;
+    width: 831px;
+    height: 80px;
+    justify-content: justify;
+    margin-left: -200px ;
+    margin-top: 20px;
+    color: white;
+    line-height: 1.4;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.text3 {
+    display: block;
+    font-size: 16px;
+    width: 340px;
+    height: 50px;
+    justify-content: justify;
+    margin-left: 50px ;
+    color: black;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.noutbook {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 660px;
+    margin-left: 340px;
+    margin-top: -550px;
+}
+
+.five {
+    width: 1340px;
+    height: 536px;
+    background-color: black;
+}
+
+.fon2 {
+height: 50px;
+background: linear-gradient(to bottom, #EC3505, rgba(0, 0, 0, 1)); 
+}
+
+.onetabl {
+color: white;
+font-size: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: right;
+min-height: 50px;
+padding-top: 170px;
+padding-right: 185px;
+
+}
+
+.onestroka { 
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 0;
+margin-left: 100px;
+list-style: none;
+font-family: 'Montserrat', sans-serif;
+    
+}
+
+.twotabl {
+color: white;
+font-size: 16px;
+display: flex;
+flex-wrap: wrap;
+justify-content: right;
+padding-top: -90px;
+padding-right: 90px;
+}
+
+.twostroka { 
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin-left: 88px;
+margin-right: 5px;
+list-style: none;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.threetabl {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-top: -90px;
+    padding-right: 255px;
+
+
+}
+
+.threestroka1 { 
+    display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin-left: 5px;
+margin-right:113px;
+gap: 90px;
+list-style: none;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+
+}
+.threestroka2 { 
+    display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin-left: -20px;
+gap: 90px;
+margin-right: 50px;
+list-style: none;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.threestroka3 { 
+    display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin-left: 75px;
+margin-right: -150px;
+list-style: none;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+    
+}
+    
+
+.fourtabl {
+color: white;
+font-size: 16px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: -90px;
+padding-right: 38px;
+} 
+.fourstroka { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 0;
+    margin-left: 53px;
+    margin-right: 10px;
+    list-style: none;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.muzica {
+    display: block;
+    font-size: 50px ;
+    margin-top: 50px;
+    font-family: 'Kenia', sans-serif;
+    color: white;
+    margin-left: 70px;
+    margin-top: 55px;
+}
+
+.lasttext {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50px;
+}
+
+.text_page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-right: 19px;
+    list-style: none;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
